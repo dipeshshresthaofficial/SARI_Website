@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,90&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+#banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #2C2E3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    opacity: 0.50;
+}
+#banner header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+#banner header .logo{
+    font-size: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#banner header .toggle{
+    position: relative;
+    background: url('./../images/toggle.png');
+    background-size: cover;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#banner .content{
+    position: relative;
+    max-width: 850px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner .content h2{
+    color: #fff;
+    font-size: 45px;
+}
+
+#banner .content p{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    max-width: 600px;
+    text-align: center;
+}
+
+#about-sec{
+    position: relative;
+    width: 100%;
+    display: flex;
+
+}
+
+#about-sec .content-area{
+    background-color: #000;
+    padding: 80px;
+    width: 50%;
+    color: #fff;
+}
+
+.heading{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.text{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#about-sec .img-area{
+    background: url('./../images/Security_AI.png');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    opacity: 0.80;
+}
+
+#services-sec{
+    padding: 80px;
+    text-align: center;
+    background-color: #2C2E3E;
+    /* opacity: 0.90; */
+}
+
+#services-sec .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#services-sec .content .service{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#services-sec .content .service img{
+    width: 64px;
+}
+
+#services-sec .content .service h2{
+    font-size: 16px;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+#services-sec .content .service .inner-content{
+    margin-top: 10px;
+}
+
+#services-sec .content .service .inner-content p{
+    cursor: pointer;
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    text-align: center;
+}
+#services-sec .content .service .inner-content a{
+    /* text-decoration: none; */
+    color: #000;
+}
+
+#involvement-sec{
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    padding-top: 250px;
+    margin-top: -250px;
+    /* margin: -300px;
+    z-index: 99; */
+}
+
+#involvement-sec .content-area{
+    color: #fff;
+    width: 50%;
+}
+#involvement-sec .content-area ul{
+    margin-left: 30px;
+}
+
+#involvement-sec .img-area{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#involvement-sec .img-area a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#involvement-sec .img-area img{
+    width: 100px;
+    
+}
