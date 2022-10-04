@@ -169,6 +169,7 @@
     background-color: rgba(255, 255, 255, 0.966);
     margin: 10px;
     border-radius: 10px;
+    /* box-shadow: 4px 5px 30px -9px rgba(97, 96, 96, 0.64); */
 }
 
 #services-sec .content .service img{
