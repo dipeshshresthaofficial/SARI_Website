@@ -127,6 +127,7 @@
     margin-bottom: 10px;
     letter-spacing: 1px;
     font-weight: 600;
+    
 }
 
 .text{
@@ -508,6 +509,19 @@
     /* max-height: 100%; */
 }
 
+#footer-sec{
+    height: 50px;
+    width: 100%;
+    background-color: #252A33;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+#footer-sec a{
+    text-decoration: none;
+    color: rgb(91, 170, 255);    
+}
 /* If the browser window is 600px or smaller */
 @media only screen and (max-width: 768px) {
     #about-sec {
@@ -519,6 +533,11 @@
     }
     #about-sec .img-area{
         width: 100%;
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 24px;
     }
 
     #involvement-sec{
