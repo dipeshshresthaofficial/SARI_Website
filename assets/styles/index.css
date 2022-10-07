@@ -137,6 +137,11 @@
     font-weight: 300;
 }
 
+#about-sec .content-area p{
+    
+    text-align: justify;
+}
+
 #about-sec .img-area{
     background: url('./../images/Security_AI.png');
     background-size: cover;
